@@ -4,7 +4,7 @@ module.exports = {
   mode: 'development',
   entry: path.resolve(__dirname, "../src/main.js"),
   output: {
-    filename: 'output.js',
+    filename: '[name].[hash:8].js',
     path: path.resolve(__dirname, "../dist")
   }
 }
